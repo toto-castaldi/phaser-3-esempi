@@ -27,5 +27,6 @@ let game = new Phaser.Game({
     backgroundColor: 0x222222,
     width: 800,
     height: 800,
-    scene: [Scene]
+    scene: [Scene],
+    parent : "sketch-holder"
 });
