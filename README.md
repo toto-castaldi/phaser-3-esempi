@@ -10,6 +10,8 @@ Creare elementi grafici con [Graphics](https://photonstorm.github.io/phaser3-doc
 
 Creare una texture con grafica per poi usarlo in uno sprite.
 
-Differenza tra [GameObjectCreator](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html) e *GameObjectCreator* . Il primo crea oggetti ma NON li aggiunge alla scena.
+Differenza tra [GameObjectCreator](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html) e *GameObjectCreator* .
 
+## get-bounds-intersects
 
+[Intersezioni tra geometrie](https://photonstorm.github.io/phaser3-docs/Phaser.Geom.Intersects.html)
