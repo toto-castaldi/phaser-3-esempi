@@ -15,3 +15,7 @@ Differenza tra [GameObjectCreator](https://photonstorm.github.io/phaser3-docs/Ph
 ## get-bounds-intersects
 
 [Intersezioni tra geometrie](https://photonstorm.github.io/phaser3-docs/Phaser.Geom.Intersects.html)
+
+## add-sprite
+
+Caricamento risorse e utilizzo in una scena. [LoaderPlugin](https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html)

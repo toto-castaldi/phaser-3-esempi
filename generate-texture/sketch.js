@@ -1,8 +1,8 @@
-let gameOptions = {
+gameOptions = {
     squareSize: 15
 }
 
-class Scene extends Phaser.Scene {
+Scene = class extends Phaser.Scene {
     constructor() {
         super({
             key: "scene"
@@ -21,12 +21,3 @@ class Scene extends Phaser.Scene {
     }
 
 }
-
-let game = new Phaser.Game({
-    type: Phaser.AUTO,
-    backgroundColor: 0x222222,
-    width: 800,
-    height: 800,
-    scene: [Scene],
-    parent : "sketch-holder"
-});

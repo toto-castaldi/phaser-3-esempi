@@ -5,14 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        li {
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
+    <div id='sketch-holder'>
+
+    </div>
+
     <ul>
-        <li><a href="sketch-loader.html?s=generate-texture">generate-texture</a></li>
-        <li><a href="sketch-loader.html?s=graphics">graphics</a></li>
-        <li><a href="sketch-loader.html?s=get-bounds-intersects">get-bounds-intersects</a></li>
+        <li>generate-texture</li>
+        <li>graphics</li>
+        <li>get-bounds-intersects</li>
+        <li>add-sprite</li>
     </ul>
+
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+    
+
+    <script>
+        let gameOptions;
+        const lis = document.getElementsByTagName("li");
+        let game;
+        for (let i = 0; i < lis.length; i++) {
+            const li = lis[i];
+            const folder = li.innerHTML;
+            li.addEventListener("click", () => {
+                requirejs([`${folder}/sketch.js`], () => {
+                    if (game) {
+                        game.destroy(true);
+                    }
+                    game = new Phaser.Game({
+                        type: Phaser.AUTO,
+                        backgroundColor: 0x222222,
+                        width: 800,
+                        height: 800,
+                        scene: [Scene],
+                        parent: "sketch-holder"
+                    });
+                });
+            });
+        }
+
+    </script>
+
 </body>
 
 </html>
