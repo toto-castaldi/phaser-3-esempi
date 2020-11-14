@@ -8,9 +8,9 @@ Creare elementi grafici con [Graphics](https://photonstorm.github.io/phaser3-doc
 
 ## generate-texture
 
-Creare una texture con grafica per poi usarlo in uno sprite.
+Creare una texture con grafica per poi usarlo in uno sprite
 
-Differenza tra [GameObjectCreator](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html) e *GameObjectCreator* .
+Differenza tra [GameObjectCreator](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html) e *GameObjectCreator* 
 
 ## get-bounds-intersects
 
@@ -23,3 +23,4 @@ Caricamento risorse e utilizzo in una scena. [LoaderPlugin](https://photonstorm.
 ## animarion
 
 Creare animazioni con (AnimationManager)[https://photonstorm.github.io/phaser3-docs/Phaser.Animations.AnimationManager.html#create__anchor]
+(Play)[https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Components.Animation.html#play__anchor] di un'animazione 
