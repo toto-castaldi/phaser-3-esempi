@@ -10,7 +10,7 @@ Scene = class extends Phaser.Scene {
     }
 
     create() {
-        //usando this.add.graphics(); il rettangolo viene ANCHE aggiunto alla scena
+        //usando this.add.graphics() il rettangolo viene ANCHE aggiunto alla scena
         let makeGraphics = this.make.graphics();
         makeGraphics.fillStyle(0x995632, 1);
         makeGraphics.fillRect(0, 0, gameOptions.squareSize, gameOptions.squareSize);

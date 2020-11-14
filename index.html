@@ -26,30 +26,43 @@
 
     <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
-    
+
 
     <script>
         let gameOptions;
         const lis = document.getElementsByTagName("li");
         let game;
+
+        const addressSketchFolder = window.location.href.split("#")[1];
+
+        const loadSketch = (folder) => {
+            const millis = new Date().getMilliseconds();
+            requirejs([`${folder}/sketch.js?${millis}`], () => {
+                if (game) {
+                    game.destroy(true);
+                }
+                game = new Phaser.Game({
+                    type: Phaser.AUTO,
+                    backgroundColor: 0x222222,
+                    width: 800,
+                    height: 800,
+                    scene: [Scene],
+                    parent: "sketch-holder"
+                });
+            });
+        }
+
         for (let i = 0; i < lis.length; i++) {
             const li = lis[i];
             const folder = li.innerHTML;
             li.addEventListener("click", () => {
-                requirejs([`${folder}/sketch.js`], () => {
-                    if (game) {
-                        game.destroy(true);
-                    }
-                    game = new Phaser.Game({
-                        type: Phaser.AUTO,
-                        backgroundColor: 0x222222,
-                        width: 800,
-                        height: 800,
-                        scene: [Scene],
-                        parent: "sketch-holder"
-                    });
-                });
+                window.location.href = window.location.href.split("#")[0] + `#${folder}`;
+                loadSketch(folder);
             });
+        }
+
+        if (addressSketchFolder) {
+            loadSketch(addressSketchFolder);
         }
 
     </script>
