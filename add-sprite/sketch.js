@@ -6,7 +6,7 @@ Scene = class extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("boxer", "assets/Boxer Game Sprite OGA/1-Idle/__Boxer2_Idle_000.png");
+        this.load.image("boxer", "assets/boxer-game-sprite-oga/1-Idle/__Boxer2_Idle_000.png");
     }
 
     create() {
