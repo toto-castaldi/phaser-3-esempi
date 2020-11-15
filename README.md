@@ -20,7 +20,7 @@ Differenza tra [GameObjectCreator](https://photonstorm.github.io/phaser3-docs/Ph
 
 Caricamento risorse e utilizzo in una scena. [LoaderPlugin](https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html)
 
-## animarion
+## animation
 
 Creare animazioni con [AnimationManager](https://photonstorm.github.io/phaser3-docs/Phaser.Animations.AnimationManager.html#create__anchor)
 
