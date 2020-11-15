@@ -7,7 +7,7 @@ Scene = class extends Phaser.Scene {
 
     preload() {
         for (let i = 0; i < 10; i++) {
-            this.load.spritesheet(`walk${i}`, `assets/boxer-forward_00${i}.png`, { frameWidth : 744, frameHeight : 711 });
+            this.load.image(`walk${i}`,`assets/boxer-forward_00${i}.png`);
         }
         this.load.image(`idle`, `assets/boxer-game-sprite-oga/1-Idle/__Boxer2_Idle_000.png`);
     }
@@ -17,7 +17,7 @@ Scene = class extends Phaser.Scene {
 
         this.anims.create({
             key: "walk",
-            frames: [{ key: "walk0", frame: 0 }, { key: "walk1", frame: 0 }, { key: "walk2", frame: 0 }, { key: "walk3", frame: 0 }, { key: "walk4", frame: 0 }, { key: "walk5", frame: 0 }, { key: "walk6", frame: 0 }, { key: "walk7", frame: 0 }, { key: "walk8", frame: 0 }, { key: "walk9", frame: 0 }]
+            frames: [{ key: "walk0" }, { key: "walk1" }, { key: "walk2" }, { key: "walk3" }, { key: "walk4" }, { key: "walk5" }, { key: "walk6" }, { key: "walk7" }, { key: "walk8" }, { key: "walk9" }]
         });
 
     }
