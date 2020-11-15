@@ -7,7 +7,7 @@ Scene = class extends Phaser.Scene {
 
     preload() {
         for (let i = 0; i < 10; i++) {
-            this.load.spritesheet(`walk${i}`, `assets/boxer-game-sprite-oga/2-Walk/1-Forward/__Boxer2_Forward_00${i}.png`, { frameWidth : 744, frameHeight : 711 });
+            this.load.spritesheet(`walk${i}`, `assets/boxer-forward_00${i}.png`, { frameWidth : 744, frameHeight : 711 });
         }
         this.load.image(`idle`, `assets/boxer-game-sprite-oga/1-Idle/__Boxer2_Idle_000.png`);
     }

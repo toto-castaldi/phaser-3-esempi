@@ -22,5 +22,6 @@ Caricamento risorse e utilizzo in una scena. [LoaderPlugin](https://photonstorm.
 
 ## animarion
 
-Creare animazioni con (AnimationManager)[https://photonstorm.github.io/phaser3-docs/Phaser.Animations.AnimationManager.html#create__anchor]
-(Play)[https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Components.Animation.html#play__anchor] di un'animazione 
+Creare animazioni con [AnimationManager](https://photonstorm.github.io/phaser3-docs/Phaser.Animations.AnimationManager.html#create__anchor)
+
+[Play](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Components.Animation.html#play__anchor) di un'animazione 
