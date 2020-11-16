@@ -9,14 +9,30 @@
         li {
             cursor: pointer;
         }
+
+        canvas {
+            padding: 0;
+            margin: auto;
+            display: block;
+        }
+
+        #code {
+            border : 1px solid black;
+        }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
 
 </head>
 
 <body>
     <div id='sketch-holder'>
 
+    </div>
+
+    <div>
+        <pre id="code">
+        </pre>
     </div>
 
     <ul>
@@ -27,10 +43,12 @@
         <li>animation</li>
     </ul>
 
-    <a class="github-fork-ribbon" href="https://github.com/toto-castaldi/phaser-3-esempi" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+    <a class="github-fork-ribbon" href="https://github.com/toto-castaldi/phaser-3-esempi"
+        data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 
     <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 
     <script>
@@ -42,7 +60,8 @@
 
         const loadSketch = (folder) => {
             const millis = new Date().getMilliseconds();
-            requirejs([`${folder}/sketch.js?${millis}`], () => {
+            const jsUrl = `${folder}/sketch.js?${millis}`;
+            requirejs([jsUrl], () => {
                 if (game) {
                     game.destroy(true);
                 }
@@ -55,6 +74,8 @@
                     parent: "sketch-holder"
                 });
             });
+
+            $("#code").load(jsUrl);
         }
 
         for (let i = 0; i < lis.length; i++) {
