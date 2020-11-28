@@ -1,3 +1,7 @@
+/*
+ * Caricamento risorse e utilizzo in una scena. https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html
+ */
+
 Scene = class extends Phaser.Scene {
     constructor() {
         super({

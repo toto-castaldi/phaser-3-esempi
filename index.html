@@ -17,7 +17,11 @@
         }
 
         #code {
-            border : 1px solid black;
+            border: 1px solid black;
+        }
+
+        .section-hidden {
+            display: none;
         }
     </style>
     <link rel="stylesheet"
@@ -30,25 +34,32 @@
 
     </div>
 
-    <div>
+    <input type="button" id="toggle-list" value="Esempi" />
+    <input type="button" id="toggle-code" value="Codice" />
+
+    <div id="section-code" class="section-hidden">
         <pre id="code">
         </pre>
     </div>
 
-    <ul>
-        <li>generate-texture</li>
-        <li>graphics</li>
-        <li>get-bounds-intersects</li>
-        <li>add-sprite</li>
-        <li>animation</li>
-    </ul>
+    <div id="section-list" class="section-hidden">
+        <ul>
+            <li>generate-texture</li>
+            <li>graphics</li>
+            <li>get-bounds-intersects</li>
+            <li>add-sprite</li>
+            <li>animation</li>
+            <li>tile-game</li>
+        </ul>
+    </div>
 
     <a class="github-fork-ribbon" href="https://github.com/toto-castaldi/phaser-3-esempi"
         data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 
     <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 
     <script>
@@ -65,14 +76,15 @@
                 if (game) {
                     game.destroy(true);
                 }
-                game = new Phaser.Game({
+                const gameConfig = Scene.gameConfig || {
                     type: Phaser.AUTO,
                     backgroundColor: 0x222222,
                     width: 800,
                     height: 800,
                     scene: [Scene],
                     parent: "sketch-holder"
-                });
+                };
+                game = new Phaser.Game(gameConfig);
             });
 
             $("#code").load(jsUrl);
@@ -89,7 +101,30 @@
 
         if (addressSketchFolder) {
             loadSketch(addressSketchFolder);
+        } else {
+            const el = document.getElementById("section-list");
+            if (el.classList.contains("section-hidden")) {
+                el.classList.remove("section-hidden");
+            }
         }
+
+        document.getElementById("toggle-list").addEventListener("click", () => {
+            const el = document.getElementById("section-list");
+            if (el.classList.contains("section-hidden")) {
+                el.classList.remove("section-hidden");
+            } else {
+                el.classList.add("section-hidden");
+            }
+        });
+
+        document.getElementById("toggle-code").addEventListener("click", () => {
+            const el = document.getElementById("section-code");
+            if (el.classList.contains("section-hidden")) {
+                el.classList.remove("section-hidden");
+            } else {
+                el.classList.add("section-hidden");
+            }
+        });
 
     </script>
 

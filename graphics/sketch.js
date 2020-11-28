@@ -1,3 +1,7 @@
+/*
+ * Creare elementi grafici con https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Graphics.html
+ */
+
 gameOptions = {
     squareRotation: 0.02,
 }

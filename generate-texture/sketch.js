@@ -1,3 +1,8 @@
+/*
+ * Creare una texture con grafica per poi usarlo in uno sprite
+ * GameObjectCreator (https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html)  
+ */
+
 gameOptions = {
     squareSize: 15
 }

@@ -1,3 +1,8 @@
+/**
+ * Creare animazioni con https://photonstorm.github.io/phaser3-docs/Phaser.Animations.AnimationManager.html#create__anchor
+   https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Components.Animation.html#play__anchor play di un'animazione 
+ */
+
 Scene = class extends Phaser.Scene {
     constructor() {
         super({
