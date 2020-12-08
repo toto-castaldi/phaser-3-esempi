@@ -1,0 +1,692 @@
+{
+	"textures": [
+		{
+			"image": "texture.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 28,
+				"h": 804
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "barmaid-idle/Barmaid_idle-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 42,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 42,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 83,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 83,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 124,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 124,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 165,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 206,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 247,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 288,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 329,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 370,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 411,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 26,
+						"h": 39
+					},
+					"frame": {
+						"x": 1,
+						"y": 452,
+						"w": 26,
+						"h": 39
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 493,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 493,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 532,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 532,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 571,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 571,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 610,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-idle/Barmaid_idle-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 610,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 649,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 649,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 688,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 688,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 727,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 727,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 766,
+						"w": 26,
+						"h": 37
+					}
+				},
+				{
+					"filename": "barmaid-walk/Barmaid_walk-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 11,
+						"w": 26,
+						"h": 37
+					},
+					"frame": {
+						"x": 1,
+						"y": 766,
+						"w": 26,
+						"h": 37
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:08dfffe37c53381a21cd463dc633aa6e:cdc8b4b142abb5c31ae46804c2c31684:88db1022cd6b660616541d2788fcd4f7$"
+	}
+}
